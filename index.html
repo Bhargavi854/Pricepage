@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+<div>
+        <h1>Our Pricing Plans</h1>
+        <div class="currency-toggle">
+            <label for="currency">Currency: </label>
+            <select id="currency">
+                <option value="$">USD</option>
+                <option value="€">EUR</option>
+                <option value="₹">IND</option>
+            </select>
+        </div>
+        <div class="unit-toggle">
+            <label for="unit">Billing Period: </label>
+            <select id="unit">
+                <option value="month">Monthly</option>
+                <option value="year">Annually</option>
+            </select>
+        </div>
+</div>
+    </header>
+
+    <main>
+        <section class="pricing">
+            <div class="card">
+                <h2>Basic Plan</h2>
+                <p class="price" data-monthly="19" data-annually="190">$19/month</p>
+                <ul>
+                    <li>Feature One</li>
+                    <li>Feature Two</li>
+                    <li>Feature Three</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="card">
+                <h2>Pro Plan</h2>
+                <p class="price" data-monthly="49" data-annually="490">$49/month</p>
+                <ul>
+                    <li>Feature One</li>
+                    <li>Feature Two</li>
+                    <li>Feature Three</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="card">
+                <h2>Enterprise Plan</h2>
+                <p class="price" data-monthly="99" data-annually="990">$99/month</p>
+                <ul>
+                    <li>Feature One</li>
+                    <li>Feature Two</li>
+                    <li>Feature Three</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
